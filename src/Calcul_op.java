@@ -11,13 +11,5 @@ public class Calcul_op {
         return res;
     }
 
-    public static void main(String[] args){
-        double a,b,som=0;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("donne la valeur de a :");
-        a = sc.nextDouble();
-        System.out.println("donne la valeur b");
-        b = sc.nextDouble();
-       som = somme(a,b);
-    }
+
 }
